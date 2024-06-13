@@ -79,12 +79,10 @@ h6 {
     font-family: 'Roboto', sans-serif;
     color: var(--navy-blue-color);
 }
-
+/* 
 h1 {
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
-}
+
+} */
 
 h2 {
     font-size: 36px;
@@ -148,14 +146,22 @@ h3 {
 
 .banner-title {
     color: var(--white-color);
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
 }
 
 .banner-button {
     background: var(--iris-color);
-    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--white-color);
     text-decoration: none;
-    font-size: var(--font-size-base);
 
     cursor: pointer;
 }
@@ -164,8 +170,8 @@ h3 {
     background: var(--ocean-color);
 }
 
-.banner-button:active {
-    background-color: var(--green-color);
+.banner-button:focus {
+    background-color: var(--ocean-color);
 }
 
 footer{
