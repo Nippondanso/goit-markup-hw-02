@@ -1,0 +1,146 @@
+:root {
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
+    --navy-blue-color: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --light-gray-color: #2E2F4266;
+    --gray-color: #2E2F42;
+    --white-color: #fff;
+    --dairy-color: #FCFCFC;
+
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+
+    --font-size-base: 16px;
+    --font-size-small: 12px;
+}
+
+.primary {
+    color: var(--iris-color);
+}
+
+.navy {
+    color: var(--navy-blue-color);
+}
+
+.cloud, .company-slogan {
+    color: var(--cloud-color);
+}
+
+body {
+    background-color: var(--white-background-color);
+    color: var(--slate-color);
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: var(--font-weight-regular); */
+    /* font-size: var(--font-size-base ); */
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--navy-blue-color);
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 2%;
+}
+
+.link {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--navy-blue-color);
+}
+
+.link:hover {
+    color: var(--ocean-color);
+}
+
+.link:active {
+    color: var(--green-color);
+}
+
+address .link {
+    /* font-weight: var(--font-weight-regular); */
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--slate-color);
+}
+
+.banner {
+    background-color: var(--navy-blue-color);
+}
+
+.banner-title {
+    color: var(--white-color);
+}
+
+.banner-button {
+    background: var(--iris-color);
+    border: none;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: var(--font-size-base);
+
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    background: var(--ocean-color);
+}
+
+.banner-button:active {
+    background-color: var(--green-color);
+}
+
+footer{
+    background-color: var(--navy-blue-color);
+}
