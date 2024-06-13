@@ -41,6 +41,7 @@ body {
     /* font-size: var(--font-size-base ); */
     line-height: 24px;
     letter-spacing: 2%;
+    background-color: var(--white-color);
 }
 
 .logo {
@@ -49,8 +50,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--iris-color)
+}
+
+nav li {
+    letter-spacing: 0.02em;
+    color: var(--ocean-color);
 }
 
 ul,
@@ -111,8 +118,12 @@ address .link {
     /* font-weight: var(--font-weight-regular); */
     font-size: var(--font-size-base);
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--slate-color);
+    font-style: normal;
+}
+address .link:hover {
+    color: var(--ocean-color);
 }
 
 .banner {
