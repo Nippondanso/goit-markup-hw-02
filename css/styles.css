@@ -85,7 +85,10 @@ h6 {
 h2 {
     font-size: 36px;
     font-weight: var(--font-weight-bold);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -177,17 +180,21 @@ h3 {
 
 }
 
-.our-team-title {
+/* .our-team-title {
     color: var(--navy-blue-color);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-}
+} */
 
 .employee-card{
     background-color: var(--white-color);
 }
+
+/* .our-portfolio-title{
+    line-height: 1.11
+} */
 
 footer {
     background-color: var(--navy-blue-color);
