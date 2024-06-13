@@ -51,7 +51,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     color: var(--iris-color)
 }
 
@@ -111,19 +111,22 @@ h3 {
 }
 
 .link:active {
-    color: var(--green-color);
+    color: var(--ocean-color);
+}
+.link:focus {
+    color: var(--ocean-color);
 }
 
-address .link {
+.address{
+    font-style: normal;
+}
+
+.address .link {
     /* font-weight: var(--font-weight-regular); */
     font-size: var(--font-size-base);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
-    font-style: normal;
-}
-address .link:hover {
-    color: var(--ocean-color);
 }
 
 .banner {
