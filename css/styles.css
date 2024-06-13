@@ -29,7 +29,8 @@
     color: var(--navy-blue-color);
 }
 
-.cloud, .company-slogan {
+.cloud,
+.company-slogan {
     color: var(--cloud-color);
 }
 
@@ -40,7 +41,7 @@ body {
     /* font-weight: var(--font-weight-regular); */
     /* font-size: var(--font-size-base ); */
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     background-color: var(--white-color);
 }
 
@@ -79,6 +80,7 @@ h6 {
     font-family: 'Roboto', sans-serif;
     color: var(--navy-blue-color);
 }
+
 /* 
 h1 {
 
@@ -93,7 +95,7 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: var(--font-weight-medium);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .link {
@@ -116,7 +118,7 @@ h3 {
     color: var(--ocean-color);
 }
 
-.address{
+.address {
     font-style: normal;
 }
 
@@ -174,6 +176,6 @@ h3 {
     background-color: var(--ocean-color);
 }
 
-footer{
+footer {
     background-color: var(--navy-blue-color);
 }
