@@ -81,6 +81,14 @@ h6 {
     color: var(--navy-blue-color);
 }
 
+h1{
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
 
 h2 {
     font-size: 36px;
@@ -122,7 +130,6 @@ h3 {
 }
 
 .address .link {
-    /* font-weight: var(--font-weight-regular); */
     font-size: var(--font-size-base);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -145,14 +152,6 @@ h3 {
     background-color: var(--navy-blue-color);
 }
 
-.banner-title {
-    color: var(--white-color);
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-    text-align: center;
-}
 
 .banner-button {
     background: var(--iris-color);
@@ -177,24 +176,11 @@ h3 {
 
 .our-team {
     background-color: var(--cloud-color);
-
-}
-
-/* .our-team-title {
-    color: var(--navy-blue-color);
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-} */
+} 
 
 .employee-card{
     background-color: var(--white-color);
 }
-
-/* .our-portfolio-title{
-    line-height: 1.11
-} */
 
 footer {
     background-color: var(--navy-blue-color);
