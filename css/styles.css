@@ -81,10 +81,6 @@ h6 {
     color: var(--navy-blue-color);
 }
 
-/* 
-h1 {
-
-} */
 
 h2 {
     font-size: 36px;
@@ -174,6 +170,23 @@ h3 {
 
 .banner-button:focus {
     background-color: var(--ocean-color);
+}
+
+.our-team {
+    background-color: var(--cloud-color);
+
+}
+
+.our-team-title {
+    color: var(--navy-blue-color);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.employee-card{
+    background-color: var(--white-color);
 }
 
 footer {
