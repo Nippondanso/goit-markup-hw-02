@@ -98,6 +98,18 @@ h3 {
     letter-spacing: 2%;
 }
 
+.address{
+    font-style: normal;
+}
+
+.address .link {
+    /* font-weight: var(--font-weight-regular); */
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
 .link {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-base);
@@ -113,20 +125,9 @@ h3 {
 .link:active {
     color: var(--ocean-color);
 }
+
 .link:focus {
     color: var(--ocean-color);
-}
-
-.address{
-    font-style: normal;
-}
-
-.address .link {
-    /* font-weight: var(--font-weight-regular); */
-    font-size: var(--font-size-base);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
 }
 
 .banner {
